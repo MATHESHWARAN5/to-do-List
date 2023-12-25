@@ -1,0 +1,262 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* styles.css */
+
+/* TodoItem */
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* TodoForm */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+form button{
+  background-color: #08a389;
+}
+
+/* styles.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #088dca;
+  color: #0bdfdf;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 25px;
+  background-color: #08a389;
+  align-items: center;
+ 
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header li {
+  margin-right: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header a:hover {
+  color: #f7f7f7;
+}
+h1 {
+
+  color: #08a389;
+  display: inline-block;
+  font-size: 2em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 600px;
+  margin-inline-end: 600px;
+  font-weight: bold;
+  align-items: center;
+}
+select {
+  background-color: rgba(247, 137, 155, 0.719);
+  color: #fff;
+}
+input {
+  border-color: #08a389;
+}
+
+.Delete {
+  background-color: orangered;
+
+}
+
+/* styles.css */
+
+/* Card styles */
+.card {
+  background-color: #d2f2f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+  width: 300px; /* Adjust width as needed */
+}
+/* 
+.card:hover {
+  transform: translateY(-5px); Add slight elevation on hover
+} */
+
+.card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+/* styles.css */
+
+/* Edit button styles */
+.edit-button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #08a389;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color:  #08a389;
+}
+
+.change {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #08a389;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.not {
+  padding: 4px 6px;
+  margin-right: 0px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #fc399b;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+/* styles.css */
+
+.h1.Heading {
+  text-align: center;
+}
+
+
+.add {
+  align-items: center;
+  padding: 3px 5px;
+  margin-right: 150px;
+  margin-left: 160px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #08a389;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+
+
